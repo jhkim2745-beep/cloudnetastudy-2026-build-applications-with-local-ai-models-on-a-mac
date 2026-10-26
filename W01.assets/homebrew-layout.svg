@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="820" height="300" fill="#ffffff"/>
+  <defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+  <rect x="20" y="20" width="780" height="235" rx="14" fill="#f8fafc" stroke="#94a3b8"/>
+  <text x="40" y="48" font-size="16" font-weight="700" fill="#0f172a" font-family="Menlo, monospace">/opt/homebrew/</text>
+  <rect x="45" y="70" width="300" height="160" rx="10" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="60" y="95" font-size="14" font-weight="700" fill="#1d4ed8" font-family="Menlo, monospace">bin/  (PATH에 들어감)</text>
+  <text x="70" y="125" font-size="13" fill="#0f172a" font-family="Menlo, monospace">ollama  → 심볼릭 링크</text>
+  <text x="70" y="155" font-size="13" fill="#0f172a" font-family="Menlo, monospace">wget    → 심볼릭 링크</text>
+  <text x="70" y="185" font-size="13" fill="#0f172a" font-family="Menlo, monospace">tree    → 심볼릭 링크</text>
+  <text x="60" y="215" font-size="12" fill="#64748b">셸은 여기서 명령어를 찾는다</text>
+  <rect x="440" y="70" width="340" height="160" rx="10" fill="#fff7ed" stroke="#f97316"/>
+  <text x="455" y="95" font-size="14" font-weight="700" fill="#c2410c" font-family="Menlo, monospace">Cellar/  (실제 파일)</text>
+  <text x="465" y="125" font-size="13" fill="#0f172a" font-family="Menlo, monospace">ollama/0.40.11/bin/ollama</text>
+  <text x="465" y="155" font-size="13" fill="#0f172a" font-family="Menlo, monospace">wget/1.25.0/bin/wget</text>
+  <text x="465" y="185" font-size="13" fill="#0f172a" font-family="Menlo, monospace">tree/2.3.2/bin/tree</text>
+  <text x="455" y="215" font-size="12" fill="#64748b">버전별 폴더 — 업그레이드 시 새 폴더 + 링크 교체</text>
+  <line x1="260" y1="121" x2="462" y2="121" stroke="#2563eb" stroke-width="1.8" marker-end="url(#b)"/>
+  <line x1="260" y1="151" x2="462" y2="151" stroke="#2563eb" stroke-width="1.8" marker-end="url(#b)"/>
+  <line x1="260" y1="181" x2="462" y2="181" stroke="#2563eb" stroke-width="1.8" marker-end="url(#b)"/>
+  <text x="410" y="285" text-anchor="middle" font-size="12" fill="#64748b">그림 2. Apple Silicon Mac의 Homebrew 구조 (버전은 내 실습 환경 기준, 직접 작성)</text>
+</svg>

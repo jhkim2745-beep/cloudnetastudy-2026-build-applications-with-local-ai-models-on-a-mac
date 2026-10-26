@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="860" height="330" fill="#ffffff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <text x="215" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">로컬 AI (Ollama)</text>
+  <rect x="30" y="45" width="370" height="250" rx="14" fill="#ecfdf5" stroke="#10b981" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="45" y="70" font-size="13" fill="#047857" font-weight="600">내 MacBook — 데이터가 밖으로 나가지 않음</text>
+  <rect x="55" y="95" width="130" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="120" y="120" text-anchor="middle" font-size="14" fill="#0f172a">터미널 / 앱</text><text x="120" y="139" text-anchor="middle" font-size="12" fill="#64748b">프롬프트 입력</text>
+  <rect x="245" y="95" width="130" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="310" y="120" text-anchor="middle" font-size="14" fill="#0f172a">Ollama 서버</text><text x="310" y="139" text-anchor="middle" font-size="12" fill="#64748b">127.0.0.1:11434</text>
+  <rect x="245" y="200" width="130" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="310" y="225" text-anchor="middle" font-size="14" fill="#0f172a">모델 파일</text><text x="310" y="244" text-anchor="middle" font-size="12" fill="#64748b">~/.ollama/models</text>
+  <rect x="55" y="200" width="130" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="120" y="225" text-anchor="middle" font-size="14" fill="#0f172a">GPU (Metal)</text><text x="120" y="244" text-anchor="middle" font-size="12" fill="#64748b">통합 메모리</text>
+  <line x1="185" y1="115" x2="243" y2="115" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="243" y1="135" x2="187" y2="135" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="310" y1="153" x2="310" y2="198" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="243" y1="228" x2="187" y2="228" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="645" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">클라우드 AI</text>
+  <rect x="460" y="45" width="140" height="250" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="530" y="70" text-anchor="middle" font-size="13" fill="#475569" font-weight="600">내 MacBook</text>
+  <rect x="475" y="140" width="110" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="530" y="165" text-anchor="middle" font-size="14" fill="#0f172a">브라우저</text><text x="530" y="184" text-anchor="middle" font-size="12" fill="#64748b">프롬프트 입력</text>
+  <rect x="690" y="45" width="150" height="250" rx="14" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <text x="765" y="70" text-anchor="middle" font-size="13" fill="#b91c1c" font-weight="600">사업자 서버</text>
+  <rect x="705" y="140" width="120" height="56" rx="8" fill="#fff" stroke="#334155"/><text x="765" y="165" text-anchor="middle" font-size="14" fill="#0f172a">추론 서비스</text><text x="765" y="184" text-anchor="middle" font-size="12" fill="#64748b">대화 저장 가능</text>
+  <line x1="587" y1="158" x2="703" y2="158" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="703" y1="180" x2="589" y2="180" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="645" y="148" text-anchor="middle" font-size="12" fill="#b91c1c">인터넷</text>
+  <text x="430" y="320" text-anchor="middle" font-size="12" fill="#64748b">그림 1. 프롬프트·모델·응답의 경계 — 로컬은 점선(내 Mac) 안에서 끝난다</text>
+</svg>
