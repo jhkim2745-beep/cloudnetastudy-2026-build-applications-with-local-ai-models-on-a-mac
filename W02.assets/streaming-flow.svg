@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 340" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="860" height="340" fill="#ffffff"/>
+  <defs><marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+  <rect x="60" y="20" width="160" height="40" rx="8" fill="#eff6ff" stroke="#2563eb"/><text x="140" y="45" text-anchor="middle" font-size="14" fill="#0f172a">Python 스크립트</text>
+  <rect x="350" y="20" width="160" height="40" rx="8" fill="#ecfdf5" stroke="#059669"/><text x="430" y="45" text-anchor="middle" font-size="14" fill="#0f172a">Ollama 서버</text>
+  <rect x="640" y="20" width="160" height="40" rx="8" fill="#f5f3ff" stroke="#7c3aed"/><text x="720" y="45" text-anchor="middle" font-size="14" fill="#0f172a">LLM (gemma3:4b)</text>
+  <line x1="140" y1="60" x2="140" y2="300" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="430" y1="60" x2="430" y2="300" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="720" y1="60" x2="720" y2="300" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="142" y1="90" x2="426" y2="90" stroke="#475569" stroke-width="2" marker-end="url(#b)"/>
+  <text x="285" y="83" text-anchor="middle" font-size="12" fill="#334155" font-family="Menlo, monospace">chat(stream=True)</text>
+  <line x1="432" y1="115" x2="716" y2="115" stroke="#475569" stroke-width="2" marker-end="url(#b)"/>
+  <text x="575" y="108" text-anchor="middle" font-size="12" fill="#334155">프롬프트 전달</text>
+  <g font-size="12" fill="#047857" font-family="Menlo, monospace">
+    <line x1="718" y1="150" x2="144" y2="150" stroke="#059669" stroke-width="1.6" marker-end="url(#b)"/><text x="575" y="144" text-anchor="middle">token "인터넷은"</text>
+    <line x1="718" y1="185" x2="144" y2="185" stroke="#059669" stroke-width="1.6" marker-end="url(#b)"/><text x="575" y="179" text-anchor="middle">token " 전 세계"</text>
+    <line x1="718" y1="220" x2="144" y2="220" stroke="#059669" stroke-width="1.6" marker-end="url(#b)"/><text x="575" y="214" text-anchor="middle">token " 컴퓨터를"</text>
+    <line x1="718" y1="255" x2="144" y2="255" stroke="#059669" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#b)"/><text x="575" y="249" text-anchor="middle">... done=True</text>
+  </g>
+  <text x="20" y="200" font-size="12" fill="#1d4ed8">즉시 print</text>
+  <text x="20" y="216" font-size="12" fill="#1d4ed8">(flush=True)</text>
+  <text x="430" y="328" text-anchor="middle" font-size="12" fill="#64748b">그림 2. 스트리밍 응답 흐름 — 생성 속도는 같고, 토큰이 도착하는 즉시 표시된다 (직접 작성)</text>
+</svg>

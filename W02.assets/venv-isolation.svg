@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" font-family="-apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="860" height="300" fill="#ffffff"/>
+  <text x="215" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">가상환경 사용</text>
+  <g font-size="13">
+    <rect x="30" y="45" width="170" height="200" rx="10" fill="#ecfdf5" stroke="#059669"/>
+    <text x="115" y="70" text-anchor="middle" font-weight="700" fill="#065f46">my-ai-chatbot</text>
+    <text x="115" y="92" text-anchor="middle" fill="#047857" font-family="Menlo, monospace">.venv/</text>
+    <text x="115" y="125" text-anchor="middle" fill="#0f172a">ollama 0.6.x</text>
+    <text x="115" y="148" text-anchor="middle" fill="#0f172a">streamlit 1.5x</text>
+    <text x="115" y="171" text-anchor="middle" fill="#0f172a">httpx 0.28</text>
+    <rect x="230" y="45" width="170" height="200" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+    <text x="315" y="70" text-anchor="middle" font-weight="700" fill="#1e3a8a">project-beta</text>
+    <text x="315" y="92" text-anchor="middle" fill="#1d4ed8" font-family="Menlo, monospace">.venv/</text>
+    <text x="315" y="125" text-anchor="middle" fill="#0f172a">flask 3.x</text>
+    <text x="315" y="148" text-anchor="middle" fill="#0f172a">httpx 0.27</text>
+  </g>
+  <text x="215" y="270" text-anchor="middle" font-size="12" fill="#047857">프로젝트마다 독립된 패키지 집합</text>
+  <text x="645" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">가상환경 미사용</text>
+  <rect x="480" y="45" width="330" height="200" rx="10" fill="#fef2f2" stroke="#ef4444"/>
+  <text x="645" y="70" text-anchor="middle" font-size="13" font-weight="700" fill="#991b1b">전역 Python (공유)</text>
+  <text x="645" y="105" text-anchor="middle" font-size="13" fill="#0f172a">ollama · streamlit · flask</text>
+  <text x="645" y="140" text-anchor="middle" font-size="13" fill="#b91c1c" font-family="Menlo, monospace">httpx 0.28 ⟷ 0.27 충돌</text>
+  <text x="645" y="175" text-anchor="middle" font-size="12" fill="#64748b">한 프로젝트의 설치가</text>
+  <text x="645" y="193" text-anchor="middle" font-size="12" fill="#64748b">다른 프로젝트를 깨뜨릴 수 있음</text>
+  <text x="645" y="270" text-anchor="middle" font-size="12" fill="#b91c1c">버전 충돌·재현 불가</text>
+  <text x="430" y="293" text-anchor="middle" font-size="12" fill="#64748b">그림 3. 가상환경의 격리 효과 (직접 작성)</text>
+</svg>
